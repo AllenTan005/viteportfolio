@@ -1,33 +1,79 @@
 <template>
     <div class="bg-[#F7F8F9] px-[10rem] pt-[6rem] pb-6">
-        <div class="flex ">
+        <div class="w-full flex justify-center">
+            <p class="text-4xl font-bold">Skill</p><br>
+           
+        </div>
+          <div class="w-full flex justify-center">
+          <p class="text-2xl mt-5"> Tool that I use for doing my project</p>
+           
+        </div>
+        
+        <div class="flex mt-5">
             <!-- <div class="border-2 rounded-md border-[#B5BBFF]">
            <p></p>
         </div> -->
             <div class="w-[50%]">
                 <Card>
                     <template #header>
-
+                        <div class="flex justify-center pt-5">
+                            <img src='../assets/html.png' alt="" class="w-[30%]" /> 
+                        </div>
                     </template>
                     <template #title>
-                        Advanced Card
+                           <p class="text-center">HTML</p>
                     </template>
-                    <template #content>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
-                        repudiandae numquam deserunt
-                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
-                        cupiditate
-                        neque quas!
-                    </template>
-                    <template #footer>
-                        <Button icon="pi pi-check" label="Save" />
-                        <Button icon="pi pi-times" label="Cancel" class="p-button-secondary"
-                            style="margin-left: .5em" />
-                    </template>
+              
                 </Card>
-            </div>
 
-        </div>
+            </div>
+            <div class="pl-4 w-[50%]">
+                <Card>
+                    <template #header>
+                        <div class="flex justify-center pt-5">
+                            <img src='../assets/css.png' alt="" class="w-[30%]" /> 
+                        </div>
+                    </template>
+                    <template #title>
+                           <p class="text-center">CSS</p>
+                    </template>
+              
+                </Card>
+
+            </div>
+            </div>
+            <div class="flex mt-5">
+                       <div class=" w-[50%]">
+                <Card>
+                    <template #header>
+                        <div class="flex justify-center pt-5">
+                            <img src='../assets/js.png' alt="" class="w-[30%]" /> 
+                        </div>
+                    </template>
+                    <template #title>
+                           <p class="text-center">JS</p>
+                    </template>
+              
+                </Card>
+
+            </div>
+                       <div class="pl-4 w-[50%]">
+                <Card>
+                    <template #header>
+                        <div class="flex justify-center pt-5">
+                            <img src='../assets/vue-logo.png' alt="" class="w-[30%]" /> 
+                        </div>
+                    </template>
+                    <template #title>
+                           <p class="text-center">Vue</p>
+                    </template>
+              
+                </Card>
+
+            </div>
+            
+</div>
+        
     </div>
 
 </template>
@@ -35,6 +81,7 @@
 
 <script>
 import Card from 'primevue/card';
+
 
 export default {
 
@@ -55,4 +102,10 @@ export default {
 
 
 <style scoped>
+:deep(.p-card-header img) {
+    width: 30%;
+}
+:deep(.p-card-content){
+    display: none;
+}
 </style>
