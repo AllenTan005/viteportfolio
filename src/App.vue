@@ -3,10 +3,11 @@ import homepageVue from './view/homepage.vue';
 import aboutVue from './view/about.vue';
 import NavbarVue from './components/Navbar.vue';
 import skillVue from './view/skill.vue';
+import leftulVue from './components/leftul.vue';
 export default{
 
   components:{
-  homepageVue,aboutVue,NavbarVue,skillVue
+  homepageVue,aboutVue,NavbarVue,skillVue,leftulVue
   }
 }
 // This starter template is using Vue 3 <script setup> SFCs
@@ -16,10 +17,13 @@ export default{
 
 <template>
 <div class="p-0">
+<leftulVue />
+
   <NavbarVue />
   <homepageVue />
     <aboutVue />
     <skillVue/>
+
 </div>
 
 
