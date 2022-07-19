@@ -5,11 +5,14 @@ import NavbarVue from './components/Navbar.vue';
 import skillVue from './view/skill.vue';
 import leftulVue from './components/leftul.vue';
 import rightulVue from './components/rightul.vue';
-export default{
+import projectVue from './view/project.vue';
 
-  components:{
-  homepageVue,aboutVue,NavbarVue,skillVue,leftulVue,rightulVue
-  
+
+export default {
+
+  components: {
+    homepageVue, aboutVue, NavbarVue, skillVue, leftulVue, rightulVue, projectVue
+
   }
 }
 // This starter template is using Vue 3 <script setup> SFCs
@@ -18,20 +21,20 @@ export default{
 </script>
 
 <template>
-<div class="p-0">
-<leftulVue />
-<rightulVue />
+  <div class="p-0">
+    <leftulVue />
+    <rightulVue />
 
-  <NavbarVue />
-  <homepageVue />
+    <NavbarVue />
+    <homepageVue />
     <aboutVue />
-    <skillVue/>
+    <skillVue />
+    <projectVue />
 
-</div>
+  </div>
 
 
 </template>
 
 <style scoped>
-
 </style>

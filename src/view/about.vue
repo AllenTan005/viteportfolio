@@ -1,7 +1,9 @@
 <template>
     <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] h-[100vh] pb-6 flex">
         <div class="w-[50%] flex flex-col justify-center">
+
             <p class="text-4xl font-bold">About Me</p>
+
             <p class="text-2xl mt-5">Having an 6 months Internship in and 1 year full-time job on front-end web
                 development </p>
             <button class="mt-5 w-[30%] py-3 bg-transparent
@@ -46,4 +48,12 @@ export default {
 </script>
 
 <style scoped>
+.email-li::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    margin: 0px auto;
+    background-color: rgb(29, 29, 29);
+}
 </style>
