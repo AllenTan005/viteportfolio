@@ -9,9 +9,9 @@
                 <i class="fa fa-facebook" aria-hidden="true"></i>
 
             </li>
-               <li class="email-li">
+            <li class="email-li">
                 <i class="fa fa-github" aria-hidden="true"></i>
-                
+
             </li>
 
             <!-- <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
@@ -59,6 +59,7 @@ export default {
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: rgb(29, 29, 29);
+    /* background-color: rgb(29, 29, 29); */
+    background-color: #B5BBFF;
 }
 </style>
