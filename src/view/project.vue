@@ -1,15 +1,47 @@
 <template>
 
-    <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] h-[100vh] pb-6 ">
+    <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] pb-6 ">
         <div class="w-full flex justify-center">
-            <p class="text-4xl font-bold">project</p><br>
+            <p class="text-4xl font-bold">Something i've built</p><br>
 
         </div>
-        <div class="flex mt-6">
-            <div class="w-[50%]">
-                <img src="../assets/1658133936996.jpg" alt="" />
+        <div class="flex mt-6 relative">
+            <div class="w-[60%] ">
+                <img src="../assets/1658133912212.jpg" alt="" class="absolute left-0 w-[60%] " />
+            </div>
+            <div class="w-[50%] z-10">
+                <p class="text-end text-2xl font-bold">Featured Project</p>
+                <p class="text-end text-xl">SSP BackStage</p>
+                <div class="w-[100%] bg-[#F7F8F9] shadow h-auto p-5 mt-5">
+                    <p class="text-xl">An admin dasboard that show user activity from using the SSP product
+                        ,its also provide the function for custom SSP template as well
+                    </p>
+                </div>
+                <div class="mt-2 flex justify-end">
+                    <p class="text-end">VSCode &nbsp; Vue.js(composition API) &nbsp; Tailwind css &nbsp; Vue-Router</p>
+                </div>
             </div>
         </div>
+        <div class="flex mt-[15rem] relative">
+
+            <div class="w-[50%] z-10">
+                <p class="text-start text-2xl font-bold">Featured Project</p>
+                <p class="text-start text-xl">SSP BackStage</p>
+                <div class="w-[100%] bg-[#F7F8F9] shadow h-auto p-5 mt-5">
+                    <p class="text-xl">An admin dasboard that show user activity from using the SSP product<br>
+                        ,its also provide the function for custom SSP template as well
+                    </p>
+                </div>
+                <div class="mt-2 flex justify-start">
+                    <p class="text-start">VSCode &nbsp; Vue.js(options API) &nbsp; Tailwind css &nbsp; Vue-Router</p>
+                </div>
+            </div>
+            <div class="w-[60%] h-[70vh] overflow-hidden bg-contain bg-center bg-no-repeat"
+                :style="{ 'background-image': 'url(' + bgimg + ')' }">
+                <!-- <img src="../assets/1658134018234.jpg" alt="" class=" right-0 " /> -->
+            </div>
+        </div>
+
     </div>
 
 
@@ -18,16 +50,24 @@
 
 <script>
 
+import spirkle from '../assets/1658134018234.jpg'
+import { ref } from 'vue'
 export default {
 
 
     setup() {
 
-        return {
+        const bgimg = ref(spirkle)
 
+
+
+        return {
+            bgimg,
+            spirkle
         }
     }
 }
+
 
 </script>
 
