@@ -1,5 +1,5 @@
 <template>
-    <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] h-[100vh] pb-6 flex">
+    <div class="px-[10rem] 1032px-custom:px-[4rem] 500px-custom:px-10 bg-[#f6fbff] pt-[6rem] h-[100vh] pb-6 flex">
         <div class="w-[50%] 1032px-custom:w-full flex flex-col justify-center">
 
             <p class="text-4xl font-bold">About Me</p>

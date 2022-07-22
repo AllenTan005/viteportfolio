@@ -1,5 +1,5 @@
 <template>
-  <div class="first-section bg-[#F7F8F9] px-[10rem] pt-[6rem] pb-6 flex flex-col justify-between h-[100vh]  ">
+  <div class="first-section bg-[#F7F8F9] px-[10rem] 1032px-custom:px-8 pt-[6rem] pb-6 flex flex-col justify-between h-[100vh]  ">
     <div class="flex flex-row 1032px-custom:flex-col items-center justify-between   ">
 
       <div class=" w-[50%] 1032px-custom:w-full  flex justify-center bg-cover" :style="{ 'background-image': 'url(' + spirkle + ')' }">

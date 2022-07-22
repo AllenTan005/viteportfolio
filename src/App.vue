@@ -7,13 +7,21 @@ import leftulVue from './components/leftul.vue';
 import rightulVue from './components/rightul.vue';
 import projectVue from './view/project.vue';
 import ContactVue from './view/Contact.vue';
+import MobileNav from './components/mobileNav.vue';
 
 export default {
 
   components: {
-    homepageVue, aboutVue, NavbarVue, skillVue, leftulVue, rightulVue, projectVue,ContactVue
-
-  }
+    homepageVue,
+    aboutVue,
+    NavbarVue,
+    skillVue,
+    leftulVue,
+    rightulVue,
+    projectVue,
+    ContactVue,
+    MobileNav
+}
 }
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
@@ -24,7 +32,7 @@ export default {
   <div class="p-0">
     <leftulVue />
     <rightulVue />
-
+    <MobileNav />
     <NavbarVue />
     <homepageVue />
     <aboutVue />

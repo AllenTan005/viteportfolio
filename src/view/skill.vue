@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#F7F8F9] px-[10rem] pt-[6rem] pb-6">
+    <div class="bg-[#F7F8F9] px-[10rem] 1032px-custom:px-8 pt-[6rem] pb-6">
         <div class="w-full flex justify-center">
             <p class="text-4xl font-bold">Skill</p><br>
            

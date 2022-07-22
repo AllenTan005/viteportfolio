@@ -1,5 +1,5 @@
 <template>
-    <div class="right-line">
+    <div class="right-line block  500px-custom:hidden">
         <ul class="flex flex-col items-center">
             <li>
                 <i class="fa fa-facebook" aria-hidden="true"></i>

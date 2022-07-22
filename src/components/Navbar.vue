@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex justify-between items-center h-[10vh] p-3 w-full">
+    <div class="1032px-custom:hidden   flex justify-between items-center h-[10vh] p-3 w-full">
         <div class="w-[20%] pl-5">
             <img src="../assets/logo.svg" alt="" />
         </div>

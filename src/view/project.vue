@@ -1,6 +1,6 @@
 <template>
 
-    <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] pb-6 ">
+    <div class="px-[10rem]  1032px-custom:px-8  bg-[#f6fbff] pt-[6rem] pb-6 ">
         <div class="w-full flex mt-[6rem] justify-center">
             <p class="text-4xl font-bold mb-5">Something i've built</p><br>
 
