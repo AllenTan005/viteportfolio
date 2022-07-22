@@ -7,7 +7,7 @@
       </div>
       <div class="w-[50%] pl-8">
         <p class="text-4xl">HI my <br> name is <span class="font-bold  ">Allen</span></p>
-        <p class="mt-5 text-2xl">I'm a <span class="font-bold ">frontend web developer</span> from Malaysia </p>
+        <p class="mt-5 text-2xl">I'm a <span class="font-bold ">frontend web developer</span> from Malaysia living in Taiwan </p>
       </div>
     </div>
     <div class="flex  justify-center relative mt-5">

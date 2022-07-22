@@ -2,7 +2,7 @@
 
     <div class="px-[10rem]  bg-[#f6fbff] pt-[6rem] pb-6 ">
         <div class="w-full flex justify-center">
-            <p class="text-4xl font-bold">Something i've built</p><br>
+            <p class="text-4xl font-bold mb-5">Something i've built</p><br>
 
         </div>
         <div class="flex mt-6 relative">
@@ -22,23 +22,24 @@
                 </div>
             </div>
         </div>
-        <div class="flex mt-[15rem] relative">
+        <div class="flex mt-[30rem] relative">
 
             <div class="w-[50%] z-10">
                 <p class="text-start text-2xl font-bold">Featured Project</p>
-                <p class="text-start text-xl">SSP BackStage</p>
+                <p class="text-start text-xl">SSP </p>
                 <div class="w-[100%] bg-[#F7F8F9] shadow h-auto p-5 mt-5">
-                    <p class="text-xl">An admin dasboard that show user activity from using the SSP product<br>
-                        ,its also provide the function for custom SSP template as well
+                    <p class="text-xl">A web app that help their fleid and facility<br>
+                        ,its also have pre-purchase good's function too
                     </p>
                 </div>
                 <div class="mt-2 flex justify-start">
                     <p class="text-start">VSCode &nbsp; Vue.js(options API) &nbsp; Tailwind css &nbsp; Vue-Router</p>
                 </div>
             </div>
-            <div class="w-[60%] h-[70vh] overflow-hidden bg-contain bg-center bg-no-repeat"
-                :style="{ 'background-image': 'url(' + bgimg + ')' }">
+            <div class="w-[60%] h-[40vh] overflow-hidden bg-contain bg-custom bg-no-repeat"
+              >
                 <!-- <img src="../assets/1658134018234.jpg" alt="" class=" right-0 " /> -->
+                  <!-- :style="{ 'background-image': 'url(' + bgimg + bgimg2 + ')' }" -->
             </div>
         </div>
 
@@ -51,6 +52,8 @@
 <script>
 
 import spirkle from '../assets/1658134018234.jpg'
+import secondssp from '../assets/messageImage_1658133995502.jpg'
+import mapssp from '../assets/1658134050832.jpg'
 import { ref } from 'vue'
 export default {
 
@@ -58,10 +61,11 @@ export default {
     setup() {
 
         const bgimg = ref(spirkle)
-
+         const bgimg2 = ref(secondssp)
 
 
         return {
+            bgimg2,
             bgimg,
             spirkle
         }
@@ -72,4 +76,10 @@ export default {
 </script>
 
 <style scoped>
+.bg-custom{
+   
+    background-image: url(../assets/1658134018234.jpg),url(../assets/messageImage_1658133995502.jpg),
+     url(../assets/1658134050832.jpg);
+     background-position: right center, left center,center center,center left;
+}
 </style>
