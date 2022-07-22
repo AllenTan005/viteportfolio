@@ -9,11 +9,11 @@
            
         </div>
         
-        <div class="flex mt-5">
+        <div class="flex 1032px-custom:flex-col mt-5">
             <!-- <div class="border-2 rounded-md border-[#B5BBFF]">
            <p></p>
         </div> -->
-            <div class="w-[50%]">
+            <div class="w-[50%] 1032px-custom:w-full">
                 <Card>
                     <template #header>
                         <div class="flex justify-center pt-5">
@@ -27,7 +27,7 @@
                 </Card>
 
             </div>
-            <div class="pl-4 w-[50%]">
+            <div class="pl-4 w-[50%] 1032px-custom:w-full 1032px-custom:p-0  1032px-custom:mt-5">
                 <Card>
                     <template #header>
                         <div class="flex justify-center pt-5">
@@ -42,8 +42,8 @@
 
             </div>
             </div>
-            <div class="flex mt-5">
-                       <div class=" w-[50%]">
+            <div class="flex 1032px-custom:flex-col mt-5">
+                       <div class=" w-[50%] 1032px-custom:w-full 1032px-custom:p-0  1032px-custom:mt-5">
                 <Card>
                     <template #header>
                         <div class="flex justify-center pt-5">
@@ -57,7 +57,7 @@
                 </Card>
 
             </div>
-                       <div class="pl-4 w-[50%]">
+                       <div class="pl-4 w-[50%] 1032px-custom:w-full 1032px-custom:p-0  1032px-custom:mt-5">
                 <Card>
                     <template #header>
                         <div class="flex justify-center pt-5">

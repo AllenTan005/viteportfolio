@@ -6,12 +6,12 @@ import skillVue from './view/skill.vue';
 import leftulVue from './components/leftul.vue';
 import rightulVue from './components/rightul.vue';
 import projectVue from './view/project.vue';
-
+import ContactVue from './view/Contact.vue';
 
 export default {
 
   components: {
-    homepageVue, aboutVue, NavbarVue, skillVue, leftulVue, rightulVue, projectVue
+    homepageVue, aboutVue, NavbarVue, skillVue, leftulVue, rightulVue, projectVue,ContactVue
 
   }
 }
@@ -30,7 +30,7 @@ export default {
     <aboutVue />
     <skillVue />
     <projectVue />
-
+    <ContactVue />
   </div>
 
 
