@@ -1,7 +1,9 @@
 <template>
-    <div class="header-nav hidden 1032px-custom:flex">
-        <div class="w-[50%]">
-
+    <div class="header-nav hidden 1032px-custom:flex 1032px-custom:justify-center">
+        <div class="w-[50%] flex justify-start">
+            <div class="w-[70%] flex items-center justify-center ">
+                <img src="../assets/logo.svg" alt="" />
+            </div>
         </div>
 
         <div class="w-[50%] flex justify-end pr-8">
@@ -12,15 +14,18 @@
                 v-show="menuToggle">
                 <span @click="menuToggle = false" class="m-3"><img src="../assets/closeMenu-icon.svg" /></span>
 
-                <ul>
-                    <li class="mb-6">
-                        <p>about</p>
+                <ul class="flex flex-col justify-center">
+                    <li class="mb-6 p-5" @click="clickMobileNav('about')">
+                        <p class="text-xl">about</p>
                     </li>
-                    <li class="mb-6">
-                        <p>skill</p>
+                    <li class="mb-6 p-5" @click="clickMobileNav('skill')">
+                        <p class="text-xl">skill</p>
                     </li>
-                    <li class="mb-6">
-                        <p>project</p>
+                    <li class="mb-6 p-5" @click="clickMobileNav('project')">
+                        <p class="text-xl">project</p>
+                    </li>
+                    <li class="mb-6 p-5" @click="clickMobileNav('contact')">
+                        <p class="text-xl">contact</p>
                     </li>
 
                 </ul>
@@ -45,6 +50,12 @@ export default {
             shop,
             event,
             course
+        }
+    },
+
+    methods: {
+        clickMobileNav(e) {
+            this.$emit('MobileNav', e)
         }
     }
 
@@ -76,10 +87,11 @@ export default {
     border-radius: 10px;
 
 }
+
 .header-nav {
-  height: 100px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 0px;
-  /* border-bottom: 2px solid #E61E24; */
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 0px;
+    /* border-bottom: 2px solid #E61E24; */
 
 
 }

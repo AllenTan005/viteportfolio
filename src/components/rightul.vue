@@ -1,16 +1,18 @@
 <template>
-    <div class="right-line block  500px-custom:hidden">
+    <div class="right-line block  1032px-custom:hidden">
         <ul class="flex flex-col items-center">
             <li>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/allen.tan.777" target="_blank"><i class="fa fa-facebook"
+                        aria-hidden="true"></i></a>
 
             </li>
             <li>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="https://github.com/AllenTan005" target="_blank"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
 
             </li>
             <li class="email-li">
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <!-- <i class="fa fa-github" aria-hidden="true"></i> -->
 
             </li>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="left-line block 500px-custom:hidden ">
+  <div class="left-line block 1032px-custom:hidden ">
     <ul class="flex flex-col items-center">
       <li class="email-li">
         <span class="m-0 p-0" style="writing-mode: vertical-rl;">allentkm9705@gmail.com</span>
