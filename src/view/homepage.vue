@@ -13,7 +13,9 @@
         <p class="mt-5 text-2xl 500px-custom:text-base">I'm a <span class="font-bold ">frontend web developer</span>
           from
           Malaysia living in
-          Taiwan </p>
+          Taiwan
+        (netlify test)
+        </p>
       </div>
     </div>
     <div class="flex 1032px-custom:hidden  justify-center relative mt-5">
