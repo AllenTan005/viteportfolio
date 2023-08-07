@@ -18,7 +18,7 @@
         <p class="mt-5 text-2xl 500px-custom:text-base">I'm a <span class="font-bold ">frontend web developer</span>
           from
           Malaysia living in
-          Taiwan
+          Taiwan Taipei
      
         </p>
       </div>
